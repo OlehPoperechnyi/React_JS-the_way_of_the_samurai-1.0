@@ -1,0 +1,23 @@
+.searchBar {
+    min-width: 360px;
+}
+.searchBar_searchStart:hover {
+    background-color: dodgerblue;
+    outline: none;
+}
+.searchBar_searchStart {
+    height: 40px;
+    width: 60px;
+    border: none;
+    outline: none;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.searchBar_searchField {
+    height: 40px;
+    width: 400px;
+    border: none;
+    outline: none;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}

@@ -1,0 +1,66 @@
+.userItemWrapper {
+    height: 86vh;
+    background-color: white;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 240px 1fr 400px;
+    grid-template-rows: 100px 40px 100px 60px 1fr 1fr;
+    grid-template-areas:
+            "photos fullName location"
+            "photos status location"
+            "photos aboutMe location"
+            "lookingForJob contacts contacts"
+            "partners partners partners"
+            "goods goods goods";
+}
+
+.userItemWrapper_userDescription {
+    grid-area: aboutMe;
+}
+.userItemWrapper_userStatus {
+    grid-area: status;
+}
+
+.userItemWrapper_userImage {
+    grid-area: photos;
+
+}
+
+.userItemWrapper_userFullName {
+    grid-area: fullName;
+}
+
+.userItemWrapper_userJobInformation {
+    grid-area: lookingForJob;
+}
+
+.userItemWrapper_userContacts {
+    grid-area: contacts;
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.userItemWrapper_userLocation {
+    grid-area: location;
+    background-color: green;
+}
+
+.userItemWrapper_userPartners {
+    grid-area: partners;
+    background-color: blue;
+}
+
+.userItemWrapper_userGoods {
+    grid-area: goods;
+    background-color: green;
+}
+
+.userItemWrapper_userContacts_social {
+    width: 120px;
+    height: 60px;
+    background-color: orange;
+}
+
+
+

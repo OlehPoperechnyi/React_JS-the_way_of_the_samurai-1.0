@@ -1,0 +1,14 @@
+.messageWrapper {
+    padding: 5px;
+    text-align: left;
+}
+
+
+.messageWrapper_message {
+    display: inline-block;
+    min-width: 20px;
+    min-height: 20px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}

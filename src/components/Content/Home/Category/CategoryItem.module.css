@@ -1,0 +1,22 @@
+.CategoryWrapper {
+    display: grid;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    align-self: center;
+    justify-self: center;
+    background-color: white;
+}
+
+.CategoryWrapper:hover .CategoryWrapper_categoryName{
+    background-color: #302d2b;
+    color: white;
+}
+
+.CategoryWrapper_categoryName {
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+}
+

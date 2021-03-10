@@ -1,0 +1,41 @@
+.fieldSizeTextarea {
+    width: 100%;
+    max-width: 100%;
+    border: none;
+    outline: none;
+    resize: none;
+    white-space: nowrap;
+    overflow: hidden;
+    min-height: 200px;
+}
+.formControlsTextarea {
+    background-color: white;
+    border-radius: 10px;
+    min-height: 200px;
+    max-height: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+.formControlsTextarea.error {
+    border: solid 1px red;
+}
+
+span.error{
+    color: red;
+}
+
+.formControlsInput {
+    width: 180px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 0px 3px 5px;
+
+}
+.formControlsInput.error {
+    border: solid 1px red;
+}
+
+.fieldInput {
+    border: none;
+    outline: none;
+}

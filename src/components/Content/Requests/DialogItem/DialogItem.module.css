@@ -1,0 +1,25 @@
+.dialog {
+    min-width: 200px;
+    min-height: 40px;
+
+}
+
+.dialog:hover {
+    background-color: dodgerblue;
+}
+
+.dialog_link {
+    display:block;
+    color: blue;
+    text-decoration: none;
+    padding: 10px;
+
+}
+
+.dialog_link.active {
+    color: white;
+}
+
+.dialog_link.active {
+    background-color: dodgerblue;
+}

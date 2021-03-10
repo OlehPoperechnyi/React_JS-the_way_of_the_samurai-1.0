@@ -1,0 +1,34 @@
+.addItemWrapper {
+    display: grid;
+
+}
+.addPhoto {
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    background-color: red;
+}
+.addGallery {
+    display: flex;
+}
+.addItemWrapper_addForm {
+    width: 400px;
+}
+.addItemWrapper_productDescription {
+
+}
+.addItemWrapper_productPrice {
+
+}
+.addItemWrapper_addItem {
+    background-color: white;
+    border-radius: 10px;
+    min-height: 30px;
+    width: 60px;
+    border: none;
+    outline: none;
+    align-self: flex-end;
+}
+.addItemWrapper_addItem:hover {
+    background-color: orange;
+}

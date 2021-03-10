@@ -1,0 +1,15 @@
+.login {
+    display: grid;
+    grid-template-rows: 2fr;
+    grid-template-columns: 1fr;
+    align-items: center;
+}
+.login_name {
+    justify-self: center;
+}
+.login_form {
+    justify-self: center;
+}
+.login_form_error {
+    color: red;
+}

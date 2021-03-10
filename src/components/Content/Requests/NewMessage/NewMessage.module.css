@@ -1,0 +1,19 @@
+.newMessageWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.newMessageWrapper_sentMessage {
+    background-color: white;
+    border-radius: 10px;
+    min-height: 30px;
+    width: 60px;
+    border: none;
+    outline: none;
+    align-self: flex-end;
+}
+.newMessageWrapper_sentMessage:hover {
+    background-color: orange;
+}
+

@@ -1,0 +1,37 @@
+.myItemWrapper {
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+    min-height: 100px;
+    background-color: white;
+    border-radius: 5px;
+}
+.myItemWrapper_ItemImage {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border-radius: 5px;
+    margin: 5px;
+}
+.myItemWrapper_ItemDescription {
+    display: grid;
+    grid-template-areas:
+    "t p"
+    "i .";
+    padding-bottom: 10px;
+}
+
+.myItemWrapper_ItemDescription_Text {
+    text-decoration: none;
+    align-self: start;
+}
+.myItemWrapper_ItemDescription_Info {
+    color: gray;
+    align-self: end;
+}
+.myItemWrapper_ItemDescription_Price {
+    grid-area: p;
+    color: orange;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 10px;
+}

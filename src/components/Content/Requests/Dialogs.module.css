@@ -1,0 +1,27 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 2fr 400px;
+    grid-template-areas:
+            "d m"
+            "d nm";
+    height: 100%;
+    background-color: dodgerblue;
+}
+
+.dialogs {
+    grid-area: d;
+    background-color: white;
+}
+
+.messages {
+    grid-area: m;
+    padding: 10px;
+}
+
+.newMessage {
+    grid-area: nm;
+    padding: 10px;
+    align-self: end;
+
+}

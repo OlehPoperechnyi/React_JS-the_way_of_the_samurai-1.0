@@ -1,0 +1,13 @@
+.nav {
+    font-weight: bold;
+    margin: 2px;
+}
+.pageCounts {
+    margin: 10px auto;
+}
+.pageCount {
+    margin: 2px;
+}
+.active {
+    font-weight: bold;
+}
